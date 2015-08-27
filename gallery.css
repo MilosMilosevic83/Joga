@@ -1,0 +1,13 @@
+#top_section {
+  width: 100%;
+  overflow: hidden;
+  background:#EEEEEE;
+  background-size: cover;
+  padding-bottom: 5px;
+}
+#gall_wrap {
+	width: 100%;
+	overflow:hidden;
+	background: #EEEEEE;
+	padding: 5% 0;
+}

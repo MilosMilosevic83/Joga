@@ -1,0 +1,92 @@
+
+body {
+	background: #FBF7F8;
+
+}
+body p {
+	color: #fff;
+}
+#top_section {
+  width: 100%;
+  overflow: hidden;
+  background:url('images/about_us_bg.jpg') no-repeat top center;
+  background-size: cover;
+	padding-bottom: 5px;
+}
+#about_our_studio aside {
+	width: 70%;
+	margin: 0 auto;
+	
+	
+}
+#about_our_studio h1 {
+	width: 70%;
+	margin: 0 auto;
+	font-size: 4em;
+	color: #fff;
+	padding: 50px 0;
+	text-align: center;
+	text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+#about_our_studio aside p {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	padding: 5%;
+	 -moz-column-count:2; 
+-webkit-column-count:2; 
+column-count:2;
+
+-moz-column-gap:40px; 
+-webkit-column-gap:40px; 
+column-gap:40px;  
+
+}
+#about_our_studio span {
+	text-align: center;
+	display: block;
+	padding-bottom: 20px;
+}
+@media screen and (max-width: 1200px) {
+	#about_our_studio aside {
+		width: 90%;
+	}
+} 
+@media screen and (max-width: 900px) {
+	#about_our_studio aside p {
+		font-size: 1.3em;
+	}
+}
+@media screen and (max-width: 768px) {
+#mob_section {
+	display: none;
+}
+#about_our_studio h1 {
+	font-size: 3em;
+}
+#about_our_studio aside p {
+	font-size: 1.3em;
+	line-height: 1.5em;
+	padding: 5%;
+	text-align: center;
+	 -moz-column-count:1; 
+-webkit-column-count:1; 
+column-count:1;
+
+-moz-column-gap:0; 
+-webkit-column-gap:0; 
+column-gap:0;  
+	
+}
+}
+@media screen and (max-width: 560px) {
+	#about_our_studio aside p {
+		background: #346392;
+		opacity: 0.7;
+	}
+	#about_our_studio img {
+		width: 80%;
+	}
+	#about_our_studio h1 {
+	font-size: 2em;
+}
+}

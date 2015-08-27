@@ -1,0 +1,52 @@
+#top_section {
+  width: 100%;
+  overflow: hidden;
+  background:#EEEEEE;
+  background-size: cover;
+  padding-bottom: 5px;
+}
+#staff {
+	width: 100%;
+	overflow: hidden;
+	padding-top: 5%;	
+	background: #EEEEEE;
+}
+#top_row {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+#top_row article {
+	width: 33.333%;
+	float: left;
+	overflow: hidden;
+}
+#bottom_row {
+	clear: both;
+	width:70%;
+	margin: 0 auto;
+	text-align: center;
+}
+#bottom_row article {
+	width: 33.333%;
+	float: left;
+	overflow: hidden;
+}
+#staff h1 {
+	text-align: center;
+	padding-bottom: 5%;
+	font-size: 3em;
+	color: #A3A3A3
+}
+#staff p {
+	font-size: 1.3em;
+	color: #A3A3A3;
+	padding: 10%;
+	line-height: 1.5em;
+}
+@media screen and (max-width: 768px) {
+#mob_section {
+	display: none;
+}
+
+}

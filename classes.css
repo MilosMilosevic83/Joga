@@ -1,0 +1,148 @@
+
+#top_section {
+  width: 100%;
+  overflow: hidden;
+  background:#EEEEEE;
+  background-size: cover;
+    padding-bottom: 5px;
+}
+#classes_content {
+    width: 100%;
+    overflow: hidden;
+}
+#classes_content aside {
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+#classes_content aside h1 {
+    color: #47719B;
+    font-size: 3em;
+    padding: 3% 0;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+#classes_content aside img {
+    float: left;
+    padding: 3%;
+}
+#classes_content aside p {
+    font-size: 1.5em;
+    color: #fff;
+    background: #346392;
+    line-height: 1.5em;
+    padding: 3%;
+    border-radius: .6%;
+}
+table {
+    
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 18px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: #eee;
+    margin:0 auto;
+}
+tr:first-child {
+    border-bottom: thin solid #346392;
+    border-top: thin solid #346392;
+}
+tr {
+    border-bottom: thin solid #346392;
+
+}
+table.schedule th, table.schedule td {
+    border-right: thin solid #346392;
+    padding: 8px;
+    width: 100%;
+}
+th {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: normal;
+    height: 20px;
+    
+    text-transform: uppercase;
+    background: #346392;
+
+}
+table.schedule.times tr:nth-child(2n), table.rates tr:nth-child(2n) {
+    background-color: #eee;
+}
+tr {
+    border-bottom: thin solid #346392;
+}
+table.schedule.times td, table.rates td {
+    text-align: center;
+}
+table.schedule th, table.schedule td {
+    border-right: thin solid #346392;
+    border-left: thin solid #346392;
+    width: 90px;
+}
+td {
+    font-size: 1.5em;
+    height: 36px;
+    vertical-align: middle;
+    text-align: center;
+    color: #346392;
+    padding: 10px 0;
+}
+td span.time {
+    display: block;
+    padding-left: 14px;
+    text-align: center;
+}
+td {
+    padding: 0;
+}
+#cost span{
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+@media screen and (max-width: 1000px) {
+     #classes_content aside {
+        text-align: center;
+     }
+     #classes_content aside p {
+         text-align: left;
+     }
+    #classes_content aside img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    padding: 3%;
+
+}
+} 
+@media screen and (max-width: 768px) {
+#mob_section {
+    display: none;
+}
+
+td span.time {
+    padding: 0;
+}
+table {  
+    width: 100%;  
+}
+td {
+    font-size: 1.2em;
+}
+#classes_content aside p {
+    font-size: 1.3em;
+}
+#classes_content aside img {
+    width: 80%;
+}
+#classes_content aside {
+    width: 90%;
+}
+}
+@media screen and (max-width: 580px) {
+table.schedule th, table.schedule td {
+    padding: 3px;
+}
+}

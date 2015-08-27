@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yoga studio Chicago</title>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="prefixfree.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<link rel="stylesheet" href="main.css">
+<link href='http://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+  <section id="top_section">
+    <nav> 
+      <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>
+      <ul class="menu">
+        <li><a href="index.html">MAIN</a></li>
+        <li><a  class="homer" href="about_us.html">ABOUT US</a>
+        <li><a href="classes.html">CLASSES</a>
+          <ul class="sub-menu">
+            <li><a href="classes.html#begg">Begginers</a></li>  
+            <li><a href="classes.html#content">Schedule</a></li>
+            <li><a href="classes.html#cost">Pricing</a></li>
+          </ul>
+        </li>
+        <li><a  href="types.html">TYPES OF YOGA</a></li>
+        <li><a  href="staff.html">OUR STAFF</a></li>
+        <li><a  href="gallery.html">GALLERY</a></li>
+        <li><a  href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div id="mob_section">
+      <div id="logo">
+        <h1>
+        <a href=""><img src="images/logo.png" alt=""></a> <br>
+       LOTUS<br>
+         <span>Yoga studio</span> 
+        </h1>
+      </div>
+
+      
+  </div>
+    <section id="about_our_studio">
+    <h1>We are Lotus Yoga studio from downtown Chicago <br>
+    Our goal is to bring you the true spirit of Yoga <br>
+
+    </h1>
+     <span><img src="images/Bill2.png" alt=""></span>
+      <aside>
+          <p>
+         
+          
+            We dedicate ourselves to the teaching of traditional Ashtanga Yoga as taught by Sri K. Patthabi Jois. Andrea is authorised (Level 2) by his son Manju P. Jois to teach Ashtanga Yoga.
+
+          We provide daily classes in Mysore Style as well as Led Classes to encourage practitioners of all levels to improve their personal practice in a safe and loving surrounding.
+
+          Everybody, despite of age and physical ability can learn Ashtanga Yoga. We offer individual guidance and support for each student to develop their own practice.
+
+          All levels of students are welcome, instructions can be given in english. 
+          Our studio is located right in the center of Berlin-Mitte. The perfect place to get to know Bikram Yoga – and come back for more! 
+          Our yoga room is 90 square meters featuring a full-size front mirror. The mirror encourages students to concentrate on their postures and alignment. The room is heated to a pleasant 38 degrees Celsius. 
+          We have separate changing rooms and shower facilities for men and women. Here you will find everything for your comfort, from shower gel to blow dryers.  
+          After class, students are welcome to sit and relax in our lobby, enjoying a cup or a refreshing drink. 
+          In our studio shop you can purchase specially developed hot yoga sportswear and a large choice of yoga mats, bags, towels and other yoga gear. 
+          With regular practice, you will get grounded, centered, strong and flexible. You will also gain insights into your thoughts and emotions. It will create a powerful shift in how you respond to stress and challenges and provide you with practical skills you can use in your busy daily live.
+          Classes are small in size, offering each student individualized attention and a sense of community.
+
+          </p>
+      </aside>
+    </section>
+</section>
+
+
+<!--Footer Footer Footer Footer Footer Footer Footer Footer Footer -->
+<footer>
+  <aside>
+  <div id="footer_logo_none">
+        <img src="images/logo_footer.png" alt="">
+
+      </div>
+      <div id="footer_menu">
+        <ul>
+          <li><a href="">Main</a></li>
+          <li><a href="">About us</a></li>
+          <li><a href="">Types of yoga</a></li>
+          <li><a href="">Our staff</a></li>
+          <li><a href="">Galery</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+
+      <div id="footer_logo">
+        <img src="images/logo_footer.png" alt="">
+
+      </div>
+
+      <div id="address">
+        <p>
+          Global Headquarters <br>
+90 Fifth Avenue<br>
+New York NY 10011<br>
+212.913.9058<br>
+40°44'11" N 73°59'37" W<br>
+        </p>
+
+      </div>
+  </aside>
+  <p id="designer">Web design & development by Milos Milosevic</p>
+</footer>
+<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script> 
+
+
+<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script> 
+<script>
+$(document).ready(function(){ 
+  var touch   = $('#resp-menu');
+  var menu  = $('.menu');
+ 
+  $(touch).on('click', function(e) {
+    e.preventDefault();
+    menu.slideToggle();
+  });
+  
+  $(window).resize(function(){
+    var w = $(window).width();
+    if(w > 767 && menu.is(':hidden')) {
+      menu.removeAttr('style');
+    }
+  });
+  
+});
+</script>
+</body>
+</html>
